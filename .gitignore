@@ -135,5 +135,20 @@ dist
 !.yarn/versions
 
 # Vite logs files
+
+# Secret stuff
+.env
+
+# Python stuff
+venv/
+__pycache__/
+*.pyc
+
+# Node/React stuff
+node_modules/
+dist/
+
+# System stuff
+.DS_Store
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
